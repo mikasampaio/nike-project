@@ -1,3 +1,7 @@
+span {
+    color: #FC6B3F;
+}
+
 /* MENU DO SITE */
 
 nav {
@@ -51,10 +55,10 @@ nav {
     justify-content: space-around;
 }
 
-.title-home{
+.title-home {
     width: 480px;
     text-align: center;
-    font-size:36px;
+    font-size: 36px;
     font-weight: 700;
     line-height: 47px;
 
@@ -62,22 +66,22 @@ nav {
     top: 215px;
     left: 57px;
 }
-.home-img{
-    height:418px;
+
+.home-img {
+    height: 418px;
     width: 683px;
 
     position: absolute;
     top: 100px;
     left: 621px;
 }
-.orange-text {
-    color: #FC6B3F;
-}
+
 
 .divisor-line {
     width: 100%;
     height: 30px;
 }
+
 /* ABOUT */
 
 .container-about {
@@ -85,13 +89,79 @@ nav {
     height: 100vh;
 
 }
+
 /* DEPOSITIONS */
 
 .container-depositions {
     background-color: #FFF6DA;
-    height: 100vh;
+    /* height: 100vh;   */
+    text-align: -webkit-center;
+    padding: 35px;
 }
-.line hr{
+
+.comments {
+    margin: 89px auto 78px;
+}
+
+.container-card {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.cards {
+    width: 570px;
+    height: 270px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 18px -11px #000000;
+    border-bottom: 2px solid #FC6B3F;
+    padding: 40px;
+}
+
+.card-text p {
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+
+    color: #000000;
+    width: 430px;
+    margin-bottom: 28px;
+}
+
+.card-img {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.comments-img {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 35px;
+}
+
+.tenis-nike {
+    margin: 30px 0;
+}
+
+button {
+    width: 190px;
+    height: 50px;
+    background: #FC6B3F;
+    border: none;
+    border-radius: 9px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #FFF6DA;
+cursor: pointer;
+}
+
+button:hover {
+    opacity: .8;
+}
+
+.line hr {
     height: 6px;
     background-color: #84F2D6;
     border: none;
@@ -102,9 +172,33 @@ nav {
 
 .container-contact {
     background-color: #FFF6DA;
-    height: 100vh;
-
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
+
+.container-contact h3 {
+    margin: 10px 0;
+}
+
+.container-contact button {
+    width: 260px;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.footer {
+    background-color: #262525;
+   
+}
+
 
 /* MOBILE */
 
